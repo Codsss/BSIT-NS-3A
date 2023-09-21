@@ -27,17 +27,17 @@ a, .btn {
 
 /*DESKTOP NAVIGATION*/
 nav, 
-.nav-links{
+.nav-links {
     display: flex;
 }
 
-nav{
+nav {
     justify-content: space-around;
     align-items: center;
     height: 17vh;
 }
 
-.nav-links{
+.nav-links {
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
@@ -54,4 +54,14 @@ a:hover {
     text-decoration: underline;
     text-underline-offset: 1rem;
     text-decoration-color: rgb(99, 99, 191);
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.logo:hover {
+    cursor: pointer;
+
+
 }
