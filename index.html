@@ -9,14 +9,21 @@
   </head>
   <body>
     <nav id = "desktop-nav"> 
-      <div class ="logo">JC CODILLO</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href= "#about"> ABOUT</a></li>
-          <li><a href= "#experience"> EXPERIENCE</a></li>
-          <li><a href= "#projects"> PROJECTS</a></li>
-          <li><a href= "#contact"> CONTACT</a></li>
-        </ul>
+    </nav>
+    <nav id="hamburger-nav "></nav>
+      <div class ="logo">JC CODILLO
+      <div class ="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>    
+      <div class ="" >
+          <li><a href= "#about" onclick="toggleMenu()"> ABOUT</a></li>
+          <li><a href= "#experience" onclick="toggleMenu()"> EXPERIENCE</a></li>
+          <li><a href= "#projects" onclick="toggleMenu()"> PROJECTS</a></li>
+          <li><a href= "#contact" onclick="toggleMenu()"> CONTACT</a></li>
+        </div>
       </div>
     </nav>
     <script src="script.js"></script>
