@@ -8,3 +8,18 @@
     }
     
 }
+
+@media (max-width: 768px) {
+    .experience-details-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .article-container {
+      margin-top: 20px;
+    }
+  
+    article {
+      margin-right: 0;
+    }
+  }
