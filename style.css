@@ -180,6 +180,7 @@ a:hover {
   .profile_pic3{
     width: auto;
     height: 400px;
+    border-radius: 3rem;
   }
 
   .section__pic-container{
